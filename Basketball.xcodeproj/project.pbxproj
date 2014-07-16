@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7808833719746901004A0F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808833619746901004A0F66 /* AppDelegate.swift */; };
+		7808833919746901004A0F66 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808833819746901004A0F66 /* GameViewController.swift */; };
+		7808833C19746901004A0F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7808833A19746901004A0F66 /* Main.storyboard */; };
+		7808833E19746901004A0F66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7808833D19746901004A0F66 /* Images.xcassets */; };
+		7808834A19746901004A0F66 /* BasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808834919746901004A0F66 /* BasketballTests.swift */; };
+		7808835619746B05004A0F66 /* PhysicsWorldBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7808835519746B05004A0F66 /* PhysicsWorldBridge.m */; };
+		7808835A19747812004A0F66 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808835919747812004A0F66 /* wood.png */; };
+		7808835C19747972004A0F66 /* wallPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808835B19747972004A0F66 /* wallPaper.png */; };
+		7808835E19747AE9004A0F66 /* baseboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7808835D19747AE9004A0F66 /* baseboard.jpg */; };
+		7808836019747D05004A0F66 /* balldimpled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7808835F19747D05004A0F66 /* balldimpled.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7808834419746901004A0F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7808832919746901004A0F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7808833019746901004A0F66;
+			remoteInfo = Basketball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7808833119746901004A0F66 /* Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7808833519746901004A0F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7808833619746901004A0F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7808833819746901004A0F66 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7808833B19746901004A0F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7808833D19746901004A0F66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7808834319746901004A0F66 /* BasketballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7808834819746901004A0F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7808834919746901004A0F66 /* BasketballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTests.swift; sourceTree = "<group>"; };
+		7808835319746A97004A0F66 /* PhysicsWorldBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsWorldBridge.h; sourceTree = "<group>"; };
+		7808835419746B04004A0F66 /* Basketball-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basketball-Bridging-Header.h"; sourceTree = "<group>"; };
+		7808835519746B05004A0F66 /* PhysicsWorldBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsWorldBridge.m; sourceTree = "<group>"; };
+		7808835919747812004A0F66 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		7808835B19747972004A0F66 /* wallPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallPaper.png; sourceTree = "<group>"; };
+		7808835D19747AE9004A0F66 /* baseboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseboard.jpg; sourceTree = "<group>"; };
+		7808835F19747D05004A0F66 /* balldimpled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balldimpled.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7808832E19746901004A0F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7808834019746901004A0F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7808832819746901004A0F66 = {
+			isa = PBXGroup;
+			children = (
+				7808833319746901004A0F66 /* Basketball */,
+				7808834619746901004A0F66 /* BasketballTests */,
+				7808833219746901004A0F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7808833219746901004A0F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7808833119746901004A0F66 /* Basketball.app */,
+				7808834319746901004A0F66 /* BasketballTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7808833319746901004A0F66 /* Basketball */ = {
+			isa = PBXGroup;
+			children = (
+				78088357197477E1004A0F66 /* Resources */,
+				7808833619746901004A0F66 /* AppDelegate.swift */,
+				7808833819746901004A0F66 /* GameViewController.swift */,
+				7808833A19746901004A0F66 /* Main.storyboard */,
+				7808833D19746901004A0F66 /* Images.xcassets */,
+				7808833419746901004A0F66 /* Supporting Files */,
+				7808835319746A97004A0F66 /* PhysicsWorldBridge.h */,
+				7808835519746B05004A0F66 /* PhysicsWorldBridge.m */,
+				7808835419746B04004A0F66 /* Basketball-Bridging-Header.h */,
+			);
+			path = Basketball;
+			sourceTree = "<group>";
+		};
+		7808833419746901004A0F66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7808833519746901004A0F66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7808834619746901004A0F66 /* BasketballTests */ = {
+			isa = PBXGroup;
+			children = (
+				7808834919746901004A0F66 /* BasketballTests.swift */,
+				7808834719746901004A0F66 /* Supporting Files */,
+			);
+			path = BasketballTests;
+			sourceTree = "<group>";
+		};
+		7808834719746901004A0F66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7808834819746901004A0F66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78088357197477E1004A0F66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78088358197477F1004A0F66 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		78088358197477F1004A0F66 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7808835F19747D05004A0F66 /* balldimpled.png */,
+				7808835D19747AE9004A0F66 /* baseboard.jpg */,
+				7808835B19747972004A0F66 /* wallPaper.png */,
+				7808835919747812004A0F66 /* wood.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7808833019746901004A0F66 /* Basketball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7808834D19746901004A0F66 /* Build configuration list for PBXNativeTarget "Basketball" */;
+			buildPhases = (
+				7808832D19746901004A0F66 /* Sources */,
+				7808832E19746901004A0F66 /* Frameworks */,
+				7808832F19746901004A0F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Basketball;
+			productName = Basketball;
+			productReference = 7808833119746901004A0F66 /* Basketball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7808834219746901004A0F66 /* BasketballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7808835019746901004A0F66 /* Build configuration list for PBXNativeTarget "BasketballTests" */;
+			buildPhases = (
+				7808833F19746901004A0F66 /* Sources */,
+				7808834019746901004A0F66 /* Frameworks */,
+				7808834119746901004A0F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7808834519746901004A0F66 /* PBXTargetDependency */,
+			);
+			name = BasketballTests;
+			productName = BasketballTests;
+			productReference = 7808834319746901004A0F66 /* BasketballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7808832919746901004A0F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Skip Wilson";
+				TargetAttributes = {
+					7808833019746901004A0F66 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7808834219746901004A0F66 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 7808833019746901004A0F66;
+					};
+				};
+			};
+			buildConfigurationList = 7808832C19746901004A0F66 /* Build configuration list for PBXProject "Basketball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7808832819746901004A0F66;
+			productRefGroup = 7808833219746901004A0F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7808833019746901004A0F66 /* Basketball */,
+				7808834219746901004A0F66 /* BasketballTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7808832F19746901004A0F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808835C19747972004A0F66 /* wallPaper.png in Resources */,
+				7808833C19746901004A0F66 /* Main.storyboard in Resources */,
+				7808836019747D05004A0F66 /* balldimpled.png in Resources */,
+				7808833E19746901004A0F66 /* Images.xcassets in Resources */,
+				7808835A19747812004A0F66 /* wood.png in Resources */,
+				7808835E19747AE9004A0F66 /* baseboard.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7808834119746901004A0F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7808832D19746901004A0F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808833919746901004A0F66 /* GameViewController.swift in Sources */,
+				7808833719746901004A0F66 /* AppDelegate.swift in Sources */,
+				7808835619746B05004A0F66 /* PhysicsWorldBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7808833F19746901004A0F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7808834A19746901004A0F66 /* BasketballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7808834519746901004A0F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7808833019746901004A0F66 /* Basketball */;
+			targetProxy = 7808834419746901004A0F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7808833A19746901004A0F66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7808833B19746901004A0F66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7808834B19746901004A0F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7808834C19746901004A0F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7808834E19746901004A0F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Basketball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Basketball/Basketball-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7808834F19746901004A0F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Basketball/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Basketball/Basketball-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7808835119746901004A0F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Basketball.app/Basketball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BasketballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		7808835219746901004A0F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Basketball.app/Basketball";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BasketballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7808832C19746901004A0F66 /* Build configuration list for PBXProject "Basketball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7808834B19746901004A0F66 /* Debug */,
+				7808834C19746901004A0F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7808834D19746901004A0F66 /* Build configuration list for PBXNativeTarget "Basketball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7808834E19746901004A0F66 /* Debug */,
+				7808834F19746901004A0F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7808835019746901004A0F66 /* Build configuration list for PBXNativeTarget "BasketballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7808835119746901004A0F66 /* Debug */,
+				7808835219746901004A0F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7808832919746901004A0F66 /* Project object */;
+}
